@@ -1,6 +1,16 @@
 # glass_lake
 
-an abstraction for an interaction in time
+an abstraction for an interaction in time, based on Ludics
+
+high-level theses:
+
+- the fundamental nature of language is interaction
+- equivalence between proofs and programs (Curry-Howard Isomorphism), but also DIALOGUES and GAMES
+- equivalence between normalization and reduction, i.e. the execution of a program (Curry-Howard Isomorphism)
+- an interaction proceeds by a DESIGN, a sequence of proofs and counter-proofs (strategies)
+- no a priori rules
+- not governed by a gain/success/win function, instead the game ends when players reach a situation where one of them endorses the move made by the other
+- language IS cut-elimination/normalization/reduction
 
 elements
 
