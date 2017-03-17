@@ -12,33 +12,29 @@ high-level theses:
 - not governed by a gain/success/win function, instead the game ends when players reach a situation where one of them endorses the move made by the other
 - language IS cut-elimination/normalization/reduction
 
-elements
+general elements:
 
-- a public, global gameboard transparent and accessible to both players at all times
-- twp players taking turns to commit positive actions
-- a positive action is always a possible update to the gameboard
-- a private gameboard for each player, restricted to that player
+- two sequences of steps, one for each player (players A and B)
+- each step has two actions, a positive and a negative one
+- players take turns alternating between taking positive and negative actions (+, -)
 
-gameboard
+positive action:
 
-- a gameboard is an array of (addresses of) locations, of any number, each location/address representing a possibility
-- a gameboard persists through steps, and is referred to simply as 'state' within each step
+- a positive action involves laying down an array of locations/cards, each represented by an 'address' for that location  ([ 1.1, 1.2, 1.3 ]). these are known as 'ramifications'
+- there is another type of positive action called the 'daimon', that ends the game/interaction
 
-progression
+ramifications:
 
-- two sequences of actions, representing two agents
-- each pair of actions constitutes a step
-- one action will be considered positive, the other negative
-- all gameboards (public, private, private) are passed from one step to the next
+- ramifications are the addresses representing the points being made by the player, or the questions being asked (these are 'cards' being laid down by the player)
 
-positiveAction ('talking')
+negative action:
 
-- assertion (intent to update public gameboard)
-- question (invitation to other player to update public gameboard)
-- agreement (update of public gameboard)
-- denial (denying update of public gameboard)
+- a negative action involves the other player 'searching' their 'deck' for 'cards' that may correspond with the cards laid down by the positive player
 
-negativeAction ('listening')
+convergence/normalization (intra-step):
 
-- recording (update of private gameboard with other player's assertion)
-- searching (searching private gameboard in response to other player's question)
+- this occurs when the player in the negative position can 'find' a card of corresponding polarity to one of those laid down by the player in the positive position
+
+convergence/normalization (big-step):
+
+- this occurs when ALL cards have been eliminated, that is, all cards of positive polarity have been matched by corresponding cards of negative polarity
