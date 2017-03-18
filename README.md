@@ -9,6 +9,7 @@ high-level theses:
 - an interaction proceeds by a DESIGN, a sequence of proofs and counter-proofs (strategies)
 - not governed by a gain/success/win function, instead the game ends when players reach a situation where one of them endorses the move made by the other
 - language IS cut-elimination/normalization/reduction
+- an interaction involves the convergence of two (or more) possibility trees, growing (and collapsing) in step with each other
 
 general elements:
 
