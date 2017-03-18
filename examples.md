@@ -29,7 +29,7 @@
 
 5a. A's positive action is to acknowledge B's previous positive action
 5b. This acknowledgement reduces ('collapses') 1.2
-5c. The interaction is complete
+5c. The interaction is complete, the daimon is played
 
 
 ## example 2 (divergent interaction/disagreement/dispute)
