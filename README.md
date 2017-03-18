@@ -1,4 +1,4 @@
-# glass_lake
+# glass_lake (seriously-WIP)
 
 an abstraction for an interaction in time, based on Ludics
 
