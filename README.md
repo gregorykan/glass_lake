@@ -30,7 +30,7 @@ positive action:
 
 ramifications:
 
-- ramifications are the addresses representing the points being made by the player, or the questions being asked
+- ramifications are the addresses representing the array of consequences/possibilities of the points being made by the player, or the questions being asked
 - these are 'cards' being laid down by the player
 - these are the addresses that can be reached in one step
 - (point of confusion: are these the questions or the possible answers to questions?)
@@ -38,7 +38,7 @@ ramifications:
 negative action:
 
 - a negative action involves the other player 'searching' their 'deck' for 'cards' that may correspond with the cards laid down by the positive player
-- note that this is NOT the player in the negative position laying down the card. the player in the negative position can lay down the card in the next step or turn
+- note that this is NOT the player in the negative position laying down the card. the player in the negative position actually lays down the card in the next step or turn, when they are in the positive position (are the proponent)
 - a player taking a negative action is known as the 'opponent'
 
 convergence/normalization (intra-step):
