@@ -4,8 +4,8 @@ an abstraction for an interaction in time, based on Ludics
 
 high-level theses:
 
-- equivalence between PROOFS and PROGRAMS (Curry-Howard Isomorphism), but also DIALOGUES and GAMES
-- equivalence between normalization and reduction, i.e. the execution of a program (Curry-Howard Isomorphism)
+- equivalence between PROOFS, PROGRAMS (Curry-Howard Isomorphism), but also DIALOGUES, GAMES and INTERACTIONS IN GENERAL
+- equivalence between normalization and reduction, i.e. the execution of a program (Curry-Howard Isomorphism), as well as 'cut-elimination'
 - an interaction proceeds by a DESIGN, a sequence of proofs and counter-proofs (strategies)
 - not governed by a gain/success/win function, instead the game ends when players reach a situation where one of them endorses the move made by the other
 - language IS cut-elimination/normalization/reduction
@@ -22,7 +22,6 @@ step/move:
 - address (sequence of integers, each representing the locations leading up to present one)
 - ramifications (set of addresses that can be reached in one step)
 
-
 positive action:
 
 - a positive action involves laying down an array of locations/cards, each represented by an 'address' for that location  ([ 1.1, 1.2, 1.3 ]). these are known as 'ramifications'
@@ -33,6 +32,8 @@ ramifications:
 
 - ramifications are the addresses representing the points being made by the player, or the questions being asked
 - these are 'cards' being laid down by the player
+- these are the addresses that can be reached in one step
+- (point of confusion: are these the questions or the possible answers to questions?)
 
 negative action:
 
