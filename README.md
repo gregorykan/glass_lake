@@ -48,5 +48,6 @@ convergence/normalization (intra-step):
 
 convergence/normalization (big-step):
 
-- this occurs when ALL cards have been eliminated, that is, all cards of positive polarity have been matched by corresponding cards of negative polarity
+- complete convergence occurs when ALL cards have been eliminated, that is, all cards of positive polarity have been matched by corresponding cards of negative polarity
 - in other words, all questions have been answered, all assertions addressed (assented/dissented)
+- do all questions have to be answered? can the interaction still be considered fully convergent if one player concludes the interaction even while not all questions have been answered?
