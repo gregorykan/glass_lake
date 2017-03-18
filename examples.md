@@ -1,6 +1,6 @@
 # examples of application
 
-## example 1
+## example 1 (well-behaved, complete reduction, i.e. convergent)
 
 1. Speaker A: let us speak of your father and mother
 2. Speaker B: my father is dead...
@@ -30,3 +30,8 @@
 5a. A's positive action is to acknowledge B's previous positive action
 5b. This acknowledgement reduces ('collapses') 1.2
 5c. The interaction is complete
+
+
+## example 2 (divergent interaction/disagreement/dispute)
+
+TBC
